@@ -54,32 +54,32 @@ Generated a forensic timeline to support the investigation.
 Documented all findings in a formal forensic report.
 Repository Structure
 INT408-USB-Forensic-Analysis/
-│
-├── README.md
-├── report/
-│   └── INT408_Forensic_Report.pdf
-│
-├── screenshots/
-│   ├── 01_hash_verification.png
-│   ├── 02_partition_analysis.png
-│   ├── 03_filesystem_analysis.png
-│   ├── 04_deleted_files.png
-│   ├── 05_file_recovery.png
-│   ├── 06_base64_decoding.png
-│   ├── 07_binwalk_analysis.png
-│   ├── 08_foremost_results.png
-│   └── 09_timeline.png
-│
-├── logs/
-│├── hashes.txt
-├── bodyfile.txt
-├── timeline.csv
-└
-└── recovered/
-├── R5VUNDH.docx
-├── R8BDGE1.jpg
-├── RVMQAU9.txt
-└── RYT9YUG.txt
+
+ README.md
+report/
+ INT408_Forensic_Report.pdf
+
+ screenshots/
+ hash_verification.png
+ partition_analysis.png
+filesystem_analysis.png
+ deleted_files.png
+ file_recovery.png
+ base64_decoding.png
+binwalk_analysis.png
+foremost_results.png
+    timeline.png
+
+ logs/
+ hashes.txt
+ bodyfile.txt
+ timeline.csv
+
+ recovered/
+R5VUNDH.docx
+R8BDGE1.jpg
+RVMQAU9.txt
+RYT9YUG.txt
 Screenshots
 
 The repository includes screenshots demonstrating each stage of the investigation.
@@ -119,6 +119,3 @@ Course: INT408 – Digital Evidence Handling and Chain of Custody
 
 Institution: ICDFA
 
-Disclaimer
-
-This repository was created for educational purposes as part of the INT408 laboratory assignment. The case scenario is fictional and is intended solely to demonstrate digital forensic investigation techniques, evidence handling, and professional reporting practices.
